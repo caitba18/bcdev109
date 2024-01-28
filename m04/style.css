@@ -1,0 +1,47 @@
+* {
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;
+				text-align: center;}
+			body {
+				width: 90%;
+				margin: 0 auto;
+        background-image: url("https://tse2.mm.bing.net/th?id=OIP.2oiZkK0xRQ3EOOLMLd8ROwHaFj&pid=Api");}
+
+  h1 {
+  font-family: 'CoelacanthRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+			#content {
+				overflow: auto;}
+			#nav, #feature, #footer {
+				margin: 1%;}
+.column1 {
+        background-color: #af4035;}
+.column2 {
+        background-color: #71bc78;}
+.column3 {
+				margin-right: 0%;
+        background-color: #ffcba4;}
+			.column1, .column2, .column3 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;}
+}
+			
+			li {
+				display: inline;
+				padding: 0.5em;}
+			#nav, #footer {
+				background-color: #5d3954;
+				padding: 0.5em 0;}
+			#feature, .article {
+				height: 10em;
+				margin-bottom: 1em;
+				background-color: #efefef;}
+#feature {
+ background-color: #5d8aa8;
+ background-image: url("https://clipart-library.com/img/1686636.png");
+ background-size:contain;
+ background-position: right;
+ background-repeat:no-repeat;}
