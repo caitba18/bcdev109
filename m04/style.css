@@ -5,7 +5,7 @@
 			body {
 				width: 90%;
 				margin: 0 auto;
-        background-image: url("https://tse2.mm.bing.net/th?id=OIP.2oiZkK0xRQ3EOOLMLd8ROwHaFj&pid=Api");}
+        background-image: url("bg.png");}
 
   h1 {
   font-family: 'CoelacanthRegular';
@@ -41,7 +41,7 @@
 				background-color: #efefef;}
 #feature {
  background-color: #5d8aa8;
- background-image: url("https://clipart-library.com/img/1686636.png");
+ background-image: url("featurepic.png");
  background-size:contain;
  background-position: right;
  background-repeat:no-repeat;}
