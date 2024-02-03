@@ -1,3 +1,8 @@
+* {
+ font-family: Helvetica; 
+ color: #27445C;
+ text-align: center;
+}
 h1 { 
  font-family: 'CoelacanthRegular'; 
 }
