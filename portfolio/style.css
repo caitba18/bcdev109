@@ -3,6 +3,9 @@
  color: #27445C;
  text-align: center;
 }
+body {
+ background-image: url("bgframe.jpg");
+}
 h1 { 
  font-family: 'CoelacanthRegular'; 
 }
