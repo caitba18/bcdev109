@@ -5,6 +5,7 @@
 }
 body {
  background-image: url("bgframe.jpg");
+ background-repeat: no-repeat;
 }
 h1 { 
  font-family: 'CoelacanthRegular'; 
