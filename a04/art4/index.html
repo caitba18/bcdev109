@@ -7,19 +7,21 @@
         <title>Artifact 04</title>
     </head>
     <body>
-        <form id="myform" action="ty.html" onsubmit="isValid();">
+        <form id="myform" action="ty.html" onsubmit="return isValid();">
             <p>
                 <label for='FirstName'>First Name:</label>
                 <input type="text" id="FirstName" name="FirstName" />
             </p>
             <div class="warning" id="fname"></div>
+            <p> <label for='LastName'>Last Name:</label>
+            <input type="text" id="LastName" name="LastName" /></p>
             
             <p>
                 <input type="submit" id="submit" name="submit" value="Submit">
             </p>
         
             <div class="warning" id="submiterror"></div>
-        
+            
         </form>
 
         <script src="validator.js" type="text/javascript"></script>
