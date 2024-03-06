@@ -35,6 +35,7 @@ function firstName(){
     return (validFirstname);
 };
 
+LastName.addEventListener('blur', lastName, false);
 function lastName() {
     var validLastName = false; 
     var lastName = document.getElementById("LastName").value;
@@ -52,7 +53,7 @@ function lastName() {
         };
 
      //4) Send error message to HTML
-    document.getElementById("lastName").innerHTML = errorMessages;
+    document.getElementById("LastName").innerHTML = errorMessages;
 
     //5) return status of each field
     return (validLastName);
