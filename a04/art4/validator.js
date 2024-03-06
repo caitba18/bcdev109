@@ -58,3 +58,39 @@ function lastName() {
     //5) return status of each field
     return (validLastName);
 }
+
+function email() {
+    var userEmail = document.getElementById("email").value;
+    var errorMessages = ""; 
+var atpos = userEmail.indexOf("@");
+var dotpos = userEmail.lastIndexOf(".");
+if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
+    errorMessages = "<p>Invalid email</p>";
+else
+    return true; //Or assign the value to a variable. For example validEmail = true
+}
+function phone() {
+    var errorMessages = "";
+    var phone = document.getElementById("phone").value;
+if (isNaN(phone) || phone.length >15 || phone===null || phone==="")
+    errorMessages = "<p>Invalid phone number </p>";
+else
+  return true; //Or assign the value to a variable. For example validPhone = true;
+
+//You can also do pattern matching by using the match() method from the string object
+//var numbers=/^[0-9]+$/;
+//if (phone===null||phone ==="" ||phone.length>15|| !phone.match(numbers))
+//...
+//else
+//...
+}
+function username() {
+    var errorMessages = "";
+    var username = document.getElementById("username").value;
+    if (username.length > 12) 
+        errorMessages += 
+}
+function password() {} 
+function address() {}
+function city() {}
+function zipcode() {}
