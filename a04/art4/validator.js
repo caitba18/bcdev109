@@ -52,7 +52,7 @@ function lastName() {
         };
 
      //4) Send error message to HTML
-    document.getElementById("LastName").innerHTML = errorMessages;
+    document.getElementById("lastName").innerHTML = errorMessages;
 
     //5) return status of each field
     return (validLastName);
