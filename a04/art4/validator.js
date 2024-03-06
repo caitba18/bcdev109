@@ -50,4 +50,10 @@ function lastName() {
                 validLastName = true;
                 console.log("Last name valid")
         };
+
+     //4) Send error message to HTML
+    document.getElementById("LastName").innerHTML = errorMessages;
+
+    //5) return status of each field
+    return (validLastName);
 }
