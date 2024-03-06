@@ -35,7 +35,7 @@ function firstName(){
     return (validFirstname);
 };
 
-LastName.addEventListener('blur', lastName, false);
+FirstName.addEventListener('blur', lastName, false);
 function lastName() {
     var validLastName = false; 
     var lastName = document.getElementById("LastName").value;
