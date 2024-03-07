@@ -83,7 +83,7 @@ if (isNaN(phone) || phone.length >15 || phone===null || phone==="") {
     errorMessages += "<p>Invalid phone number </p>";
 } else {
   validPhone = true; 
-{ //Or assign the value to a variable. For example validPhone = true;
+} //Or assign the value to a variable. For example validPhone = true;
     document.getElementById("phoneNum").innerHTML = errorMessages;
     return (validPhone);
 
