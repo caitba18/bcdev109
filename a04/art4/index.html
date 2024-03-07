@@ -5,10 +5,21 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="art4.css" >
         <title>Artifact 04</title>
-        <script src="validator.js"></script>
+        
     </head>
     <body>
-         
+         <script src="validator.js">
+             function isValid() {
+    if (firstName() && lastName() && email() && phone() && username() && password() && address() && city() && zipcode()) {
+        return true;
+    } else {
+        document.getElementById("submiterror").innerHTML = "<p><strong>Error Submitting — See Above</strong></p>";
+        event.preventDefault();
+        return false;
+    }
+}
+
+         </script>
         <form id="myform" action="ty.html" onsubmit="return (isValid());">
             <p>
                 <label for='FirstName'>First Name:</label>
