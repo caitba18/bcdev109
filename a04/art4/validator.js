@@ -1,5 +1,5 @@
 function isValid() {
-    if (firstName() && lastName()) //&& email() && phone() && username() && password() && address() && city() && zipcode())
+    if (firstName() && lastName()) && email() && phone() && username() && password() && address() && city() && zipcode())
         return true;
     else
         document.getElementById("submiterror").innerHTML = "<p><strong>Error Submitting — See Above</strong></p>";
