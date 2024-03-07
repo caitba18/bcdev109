@@ -34,7 +34,7 @@ function firstName(){
 
     //5) return status of each field
     return (validFirstname);
-};
+}
 
 //FirstName.addEventListener('blur', lastName, false);
 function lastName() {
