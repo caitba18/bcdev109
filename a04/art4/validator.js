@@ -99,7 +99,7 @@ function username() {
     var validUser = false;
     var errorMessages = "";
     var username = document.getElementById("Username").value;
-    if (username.length > 12) {
+    if (username.length > 12 || username === null || username === "") {
         errorMessages += "<p>The username is required and must be less than 12 characters.</p>"
     } else {
         validUser = true;
@@ -112,7 +112,7 @@ function password() {
     var validPassword = false;
     var errorMessages = "";
     var password = document.getElementById("Password").value;
-    if (password.length > 7) {
+    if (password.length > 7 || password === null || password === "") {
         errorMessages += "<p>The password is required and must be less than 7 characters.</p>";
     } else {
         validPassword = true;
