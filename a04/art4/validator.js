@@ -66,7 +66,7 @@ var atpos = userEmail.indexOf("@");
 var dotpos = userEmail.lastIndexOf(".");
 if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
     errorMessages = "<p>Invalid email</p>";
-else
+else {
     return true; //Or assign the value to a variable. For example validEmail = true
 }
 function phone() {
