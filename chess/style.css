@@ -31,13 +31,13 @@ img {
  }
 
 .clear { 
-  clear: left;
+  clear: both;
 }
 
 .row{
  position:relative;
- margin-left:auto;
- margin-right: auto;
+ margin-left:10%;
+ margin-right: 10%;
  width: 100%;
  
 }
