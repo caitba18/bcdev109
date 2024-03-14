@@ -42,7 +42,8 @@ h1 {
   position: absolute;
  width: 50%;
  height: 50%;
-  margin-width: -100px;
+  margin-left: -100px;
+  margin-right: -100px;
 }
 
 
