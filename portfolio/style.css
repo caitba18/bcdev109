@@ -38,4 +38,11 @@ h1 {
  background-color: white;
 }
 
+.centertext {
+  position: absolute;
+ width: 50%;
+ height: 50%;
+  margin-width: -100px;
+}
+
 
