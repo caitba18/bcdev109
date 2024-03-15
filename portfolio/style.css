@@ -12,6 +12,10 @@ body {
 h1 { 
  font-family: 'CoelacanthRegular'; 
 }
+
+p {
+ font-size: 20px;
+}
 .topnav {
   background-color: #27445C;
   overflow: hidden;
