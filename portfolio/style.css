@@ -4,6 +4,7 @@
  text-align: center;
 }
 body {
+ background-color: #ffebcd;
  background-image: url("bgframe.jpg");
  background-attachment: fixed;
  background-repeat: no-repeat;
