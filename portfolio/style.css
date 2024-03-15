@@ -9,6 +9,10 @@ body {
  background-repeat: no-repeat;
  background-size: cover;
 }
+
+.warning {
+    color:red;
+}
 h1 { 
  font-family: 'CoelacanthRegular'; 
 }
